@@ -5,7 +5,7 @@ RECOMMENDATION: DO NOT UPDATE FILES THAT YOU CLONE. Instead create a new file an
 
 Important git commands:
 1)	To clone this repo
-	git clone https://github.com/aggarwaldeepak/lp2-17summer
+	git clone https://github.com/coding-blocks-archives/Launchpad2_17_Summer_Pitampura
 2)	To roll back changes to the original folder (fancy name=master)
 	git checkout master
 3)	If checkout doesn't work, perform a hard reset
