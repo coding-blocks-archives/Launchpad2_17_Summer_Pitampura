@@ -4,7 +4,7 @@
 using namespace std;
 int cnt = 0;
 
-void printPermutation(string s, string res){
+void printPermutation(string s, string decision){
 	//print permuatation prints all the permutations of a string s after appending them
 	//to res
 
@@ -14,8 +14,8 @@ void printPermutation(string s, string res){
 	}
 
 	for(int i = 0; i < s.size(); ++i){
-		string newRes = res + s[i];
 		string rem = s.substr(0, i) + s.substr(i + 1);
+		string modifiedDecision = decision + s[i];
 		printPermutation(rem, newRes);
 	}
 }
