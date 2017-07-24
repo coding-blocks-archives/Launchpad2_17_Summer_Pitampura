@@ -177,7 +177,7 @@ public:
 	}
 
 	~HashMap(){
-		delete table;		//free the memory allocated by ctor
+		delete [] table;		//free the memory allocated by ctor
 		//scope rule doesn't follow
 	}
 
